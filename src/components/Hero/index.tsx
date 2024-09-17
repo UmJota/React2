@@ -2,11 +2,13 @@ import { Container } from '../../styles'
 import { HeroFormulario, HetoTitle } from './style'
 
 const Hero = () => (
-  <HeroFormulario>
+  <HeroFormulario className="hero-formulario">
     <Container>
-      <HetoTitle>
-        As melhores vagas para tecnologia, design e artes visuais.
-      </HetoTitle>
+      <div>
+        <HetoTitle>
+          As melhores vagas para tecnologia, design e artes visuais.
+        </HetoTitle>
+      </div>
     </Container>
   </HeroFormulario>
 )
